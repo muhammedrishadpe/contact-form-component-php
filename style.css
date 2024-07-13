@@ -96,50 +96,52 @@ form .message textarea {
 }
 
 form .button-area {
-    margin: 25px 0;
-    display: flex;
-    align-items: center;
+  margin: 25px 0;
+  display: flex;
+  align-items: center;
 }
 
 .button-area button {
-    font-size: 18px;
-    border: none;
-    color: #fff;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #0D6EFD;
-    padding: 13px 25px;
+  font-size: 18px;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #0d6efd;
+  padding: 13px 25px;
 }
-.button-area span{color: #0D6EFD
-    ;
-margin-left: 30px;}
+.button-area span {
+  color: #0d6efd;
+  margin-left: 30px;
+  display: none;
+}
 
-@media(max-width: 600px){
-    .wrapper header {
-        text-align: center;
-    }
-    form .dbl-field {
-        flex-direction: column;
+@media (max-width: 600px) {
+  .wrapper header {
+    text-align: center;
+  }
+  form .dbl-field {
+    flex-direction: column;
     margin-bottom: 0;
-    }
+  }
 
-    .dbl-field .field {
-        width: 100%;
-        margin-bottom: 20px;
-    }
+  .dbl-field .field {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 
-    form .button-area{
-        flex-direction: column;
-    }
-form .message textarea {
+  form .button-area {
+    flex-direction: column;
+  }
+  form .message textarea {
     resize: none;
-}
-    .button-area button{
-        width : 100%
-    }
+  }
+  .button-area button {
+    width: 100%;
+  }
 
-    .button-area span {
-        text-align: center;
-        margin: 20px 0;
-    }
+  .button-area span {
+    text-align: center;
+    margin: 20px 0;
+  }
 }
